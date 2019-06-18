@@ -5,7 +5,14 @@ ruby '2.5.1'
 
 gem 'devise'
 
+gem 'better_errors', '~> 2.5', '>= 2.5.1'
+gem 'bulma-rails', '~> 0.7.4'
+gem 'simple_form', '~> 4.1'
 gem 'bootstrap-sass'
+gem 'bootstrap', '~> 4.3', '>= 4.3.1'
+
+gem 'guard', '~> 2.15'
+gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
