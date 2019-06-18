@@ -10,6 +10,52 @@
   </head>
 
   <body>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+  <a class="active" href="/"><i class="fa fa-fw fa-home"></i> Z-Mobile</a>
+
+  <div class="topnav-right">
+    <% if user_signed_in? %>
+
+    <% else %>
+    <a href="/users/sign_in" > Sign In</a>
+    <a href="/users/sign_up" > Sign Up</a>
+    <% end %>
+  </div>
+
+</div>
     <%= yield %>
+
+    <div class="vertical-menu">
+      <a href="/products">Products</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+      <a href="#">Link 4</a>
+    </div>
+
   </body>
+  <footer class="page-footer font-small blue">
+    <center>
+<br>
+<br>
+<hr />
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-1">Call center number:
+    <a href="/"> +56965326542</a>
+  </div>
+  <br>
+
+  <div class="footer-copyright text-center py-1">Address:
+    <a href="/"> Av. las Condes 2852</a>
+  </div>
+  </center>
+  <br>
+<br>
+
+  <!-- Copyright -->
+
+</footer>
 </html>
