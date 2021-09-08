@@ -5,7 +5,7 @@ ruby '2.5.1'
 
 gem 'devise'
 
-gem 'better_errors', '~> 2.5', '>= 2.5.1'
+gem 'better_errors', '~> 2.8'
 gem 'bulma-rails', '~> 0.7.4'
 gem 'simple_form', '~> 4.1'
 gem 'bootstrap-sass'
